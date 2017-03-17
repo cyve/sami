@@ -1,26 +1,20 @@
 # SAMI - Documentation technique
 
 ## Installation
-.. code-block:: bash
     $ composer require cyve/sami
 
 Ajouter les lignes suivantes au fichier composer.json
-.. code-block:: json
     "scripts": {
         "sami": ["@php vendor/cyve/sami/bin/sami.phar update vendor/cyve/sami/config.php"]
     }
 
 ## Génération de la documentation
-
-.. code-block:: bash
     $ cd sami && php sami.phar update config.php
 
 ou
-.. code-block:: bash
     $ composer sami
 
 La documentation est créée dans le dossier "documentation" à la racine du projet.
-
 
 ## Documentation technique de la documentation technique
 
