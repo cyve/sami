@@ -1,0 +1,8 @@
+{
+    "name": "cyve/sami",
+    "license": "MIT",
+    "type": "library",
+    "scripts": {
+        "sami": ["@php bin/sami.phar update config.php"]
+    }
+}
